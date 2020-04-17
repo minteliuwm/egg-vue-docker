@@ -1,6 +1,6 @@
 {
-  "name": "egg-vue",
-  "version": "1.0.1",
+  "name": "egg-vue-docker",
+  "version": "1.0.0",
   "description": "",
   "private": true,
   "egg": {
@@ -8,8 +8,8 @@
     "declarations": true
   },
   "scripts": {
-    "start": "npm run stop && egg-scripts start --daemon --title=egg-server-egg-vue",
-    "stop": "egg-scripts stop --title=egg-server-egg-vue",
+    "start": "npm run stop && egg-scripts start --title=egg-server-egg-vue-docker",
+    "stop": "egg-scripts stop --title=egg-server-egg-vue-docker",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
     "test-local": "egg-bin test",
@@ -18,6 +18,7 @@
     "tsc": "ets && tsc -p tsconfig.json",
     "ci": "npm run lint && npm run cov && npm run tsc && npm run build",
     "build": "./scripts/build.sh",
+    "docker": "./scripts/docker.sh",
     "autod": "autod",
     "lint": "eslint . --ext .ts && cd webapp && npm run lint",
     "clean": "ets clean",
