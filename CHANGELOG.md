@@ -1,13 +1,9 @@
-## [1.0.1](https://github.com/minteliuwm/egg-vue/compare/v1.0.0...v1.0.1) (2020-04-17)
-
-
-
-# [1.0.0](https://github.com/minteliuwm/egg-vue/compare/b2e9cc55ab44285963249fc1b725589c5bb68422...v1.0.0) (2020-04-17)
+## [1.0.1](https://github.com/minteliuwm/egg-vue-docker/compare/9eeb953ab352a03830238859e921fee4f9dae56b...v1.0.1) (2020-04-20)
 
 
 ### Features
 
-* 初始化项目 ([b2e9cc5](https://github.com/minteliuwm/egg-vue/commit/b2e9cc55ab44285963249fc1b725589c5bb68422))
+* 初始化项目 ([9eeb953](https://github.com/minteliuwm/egg-vue-docker/commit/9eeb953ab352a03830238859e921fee4f9dae56b))
 
 
 
