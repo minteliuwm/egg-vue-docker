@@ -23,7 +23,7 @@ const { protocol, hostname, port } = window.location;
 const ORIGIN = port ? `${protocol}//${hostname}:${port}` : `${protocol}//${hostname}`;
 
 // url前缀
-const PRE_URL = '/';
+const PRE_URL = '/api';
 
 const DEFAULT_CONFIG = {
   baseURL: ORIGIN + PRE_URL,
