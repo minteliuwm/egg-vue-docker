@@ -6,6 +6,9 @@ npm run build
 # 停止服务
 docker stop egg-vue-docker
 
+# 删除镜像
+docker rmi egg-vue-docker
+
 # 构建镜像
 docker build -t egg-vue-docker .
 
@@ -13,4 +16,4 @@ docker build -t egg-vue-docker .
 docker run --rm=true -d --name egg-vue-docker -p 7002:7001 egg-vue-docker
 
 # 删除 id 为 none 的镜像
-docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
+# docker rmi $(docker images | grep "^<none>" | awk "{print $3}")
